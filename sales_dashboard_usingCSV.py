@@ -4,7 +4,7 @@ from dash import Dash, dcc, html, dash_table
 from dash.dependencies import Input, Output
 
 # Read data from CSV file
-df = pd.read_csv('C:\\Users\\MariaHamid\\Downloads\\supermarkt_sales.csv')
+df = pd.read_csv('supermarkt_sales.csv')
 
 # Clean column names
 df.columns = df.columns.str.strip()
