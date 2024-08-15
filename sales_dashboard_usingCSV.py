@@ -88,4 +88,4 @@ def update_line_chart(_):
 
 
 if __name__ == '__main__':
-    app.run_server(debug=True, port=4444)
+    app.run_server(port=4444)
